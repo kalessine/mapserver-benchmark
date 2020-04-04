@@ -1,0 +1,74 @@
+MAP
+NAME benchmark
+CONFIG "PROJ_LIB" "/usr/share/proj/"
+STATUS ON
+SIZE 450 350
+EXTENT -180 -180 180 180
+UNITS DD
+IMAGETYPE PNG
+PROJECTION
+  "init=epsg:4326"
+END
+
+# Map interface definition
+WEB
+    LOG "/data/mapserver.log"
+    METADATA
+       "wms_title"           "WMS Demo Server"
+       "wms_onlineresource"  "http://localhost/cgi-bin/mapserv?map=/data/map.map&"
+       "wms_srs"             "EPSG:4326 EPSG:3857"
+       "wms_enable_request"  "*"
+    END
+END
+
+# Our Geo-referenced RADAR layer
+LAYER
+  TYPE RASTER
+  STATUS ON
+  NAME "raster"
+  DATA "/data/raster.tif"
+  PROJECTION
+   "init=epsg:4326"
+  END
+  # For Mapserver 3.x, we would use
+  # OFFSITE 0
+  OFFSITE 0 0 0
+
+  METADATA 
+     "wms_enable_request"  "*"
+     "wms_srs" "epsg:3857 epsg:4326"
+  END
+
+END
+
+SYMBOL
+  NAME "circle"
+  TYPE ellipse
+  FILLED true
+  POINTS
+    1 1
+  END
+END
+LAYER
+  TYPE POINT
+  STATUS ON
+  NAME "points"
+  DATA "/data/points.shp"
+  PROJECTION
+    "init=epsg:4326"
+  END
+  CLASS
+     STYLE
+        SYMBOL 'circle'
+        COLOR 255 0 0
+        SIZE 2.0
+        WIDTH 1.0
+     END
+  END
+  METADATA
+     "wms_enable_request"  "*"
+     "wms_srs" "epsg:3857 epsg:4326"
+  END
+END
+
+END
