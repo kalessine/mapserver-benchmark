@@ -1,0 +1,58 @@
+2020-04-05 10:55:18,088 CRIT Supervisor running as root (no user in config file)
+2020-04-05 10:55:18,090 INFO Creating socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:18,090 INFO Closing socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:18,090 INFO supervisord started with pid 7
+2020-04-05 10:55:19,092 INFO spawned: 'nginx' with pid 10
+2020-04-05 10:55:19,092 INFO Creating socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:19,093 INFO spawned: 'mapserver_02' with pid 11
+2020-04-05 10:55:19,094 INFO spawned: 'mapserver_03' with pid 12
+2020-04-05 10:55:19,095 INFO spawned: 'mapserver_00' with pid 13
+2020-04-05 10:55:19,096 INFO spawned: 'mapserver_01' with pid 14
+2020-04-05 10:55:19,097 INFO spawned: 'mapserver_06' with pid 15
+2020-04-05 10:55:19,098 INFO spawned: 'mapserver_07' with pid 16
+2020-04-05 10:55:19,100 INFO spawned: 'mapserver_04' with pid 17
+2020-04-05 10:55:19,101 INFO spawned: 'mapserver_05' with pid 18
+2020-04-05 10:55:20,105 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:20,105 INFO success: mapserver_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:23,777 WARN received SIGINT indicating exit request
+2020-04-05 10:55:23,777 INFO waiting for nginx, mapserver_02, mapserver_03, mapserver_00, mapserver_01, mapserver_06, mapserver_07, mapserver_04, mapserver_05 to die
+2020-04-05 10:55:23,781 INFO stopped: mapserver_04 (exit status 0)
+2020-04-05 10:55:23,782 INFO stopped: mapserver_07 (exit status 0)
+2020-04-05 10:55:23,782 INFO stopped: mapserver_01 (exit status 0)
+2020-04-05 10:55:23,782 INFO stopped: mapserver_03 (exit status 0)
+2020-04-05 10:55:23,782 INFO stopped: mapserver_00 (exit status 0)
+2020-04-05 10:55:23,783 INFO stopped: mapserver_06 (exit status 0)
+2020-04-05 10:55:23,783 INFO stopped: mapserver_05 (exit status 0)
+2020-04-05 10:55:23,784 INFO stopped: mapserver_02 (exit status 0)
+2020-04-05 10:55:23,785 INFO Closing socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:23,787 INFO stopped: nginx (exit status 0)
+2020-04-05 10:55:25,347 CRIT Supervisor running as root (no user in config file)
+2020-04-05 10:55:25,349 INFO Creating socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:25,350 INFO Closing socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:25,350 INFO supervisord started with pid 7
+2020-04-05 10:55:26,353 INFO spawned: 'nginx' with pid 10
+2020-04-05 10:55:26,353 INFO Creating socket unix:///var/run/mapserver.sock
+2020-04-05 10:55:26,356 INFO spawned: 'mapserver_02' with pid 11
+2020-04-05 10:55:26,358 INFO spawned: 'mapserver_03' with pid 12
+2020-04-05 10:55:26,360 INFO spawned: 'mapserver_00' with pid 13
+2020-04-05 10:55:26,361 INFO spawned: 'mapserver_01' with pid 14
+2020-04-05 10:55:26,362 INFO spawned: 'mapserver_06' with pid 15
+2020-04-05 10:55:26,363 INFO spawned: 'mapserver_07' with pid 16
+2020-04-05 10:55:26,364 INFO spawned: 'mapserver_04' with pid 17
+2020-04-05 10:55:26,366 INFO spawned: 'mapserver_05' with pid 18
+2020-04-05 10:55:27,371 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-05 10:55:27,372 INFO success: mapserver_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
